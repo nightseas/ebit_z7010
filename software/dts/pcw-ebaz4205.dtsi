@@ -1,0 +1,57 @@
+/*****************************************************
+ *       PCW Device Tree for EBAZ4205 Board          *
+ *                                                   * 
+ *   File   : pcw-ebaz4205.dts                       * 
+ *   Author : Xiaohai Li (haixiaolee@gmail.com)      * 
+ *   Rev    : v0.1 2019-12-09                        * 
+ *****************************************************/
+
+/ {
+	cpus {
+		cpu@0 {
+			operating-points = <666666 1000000 333333 1000000>;
+		};
+	};
+};
+&gem0 {
+	phy-mode = "gmii";
+	status = "okay";
+	xlnx,ptp-enet-clock = <0x69f6bcb>;
+};
+&gpio0 {
+	emio-gpio-width = <2>;
+	gpio-mask-high = <0x0>;
+	gpio-mask-low = <0x5600>;
+};
+&intc {
+	num_cpus = <2>;
+	num_interrupts = <96>;
+};
+&nand0 {
+	arm,nand-cycle-t0 = <0x1>;
+	arm,nand-cycle-t1 = <0x1>;
+	arm,nand-cycle-t2 = <0x0>;
+	arm,nand-cycle-t3 = <0x0>;
+	arm,nand-cycle-t4 = <0x0>;
+	arm,nand-cycle-t5 = <0x0>;
+	arm,nand-cycle-t6 = <0x0>;
+	status = "okay";
+};
+&sdhci0 {
+	status = "okay";
+	xlnx,has-cd = <0x0>;
+	xlnx,has-power = <0x0>;
+	xlnx,has-wp = <0x0>;
+};
+&smcc {
+	status = "okay";
+};
+&uart1 {
+	device_type = "serial";
+	port-number = <0>;
+	status = "okay";
+};
+&clkc {
+	fclk-enable = <0x1>;
+	ps-clk-frequency = <33333333>;
+};

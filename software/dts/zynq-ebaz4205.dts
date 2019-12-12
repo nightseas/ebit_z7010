@@ -1,0 +1,61 @@
+/*****************************************************
+ *       Top Device Tree for EBAZ4205 Board          *
+ *                                                   * 
+ *   File   : zynq-ebaz4205.dts                      * 
+ *   Author : Xiaohai Li (haixiaolee@gmail.com)      * 
+ *   Rev    : v0.1 2019-12-09                        * 
+ *****************************************************/
+
+/dts-v1/;
+#include "zynq-7000-ebaz4205.dtsi"
+#include "pcw-ebaz4205.dtsi"
+//#include "pl-ebaz4205.dtsi"
+
+/ {
+	model = "Zynq EBAZ4205 board";
+	compatible = "xlnx,zynq-ebaz4205", "xlnx,zynq-7000";
+
+	chosen {
+		bootargs = "earlycon";
+		stdout-path = "serial0:115200n8";
+	};
+
+	aliases {
+		ethernet0 = &gem0;
+		serial0 = &uart1;
+		mmc0 = &sdhci0;
+		nand0 = &nand0;
+	};
+
+	memory@0 {
+		device_type = "memory";
+		reg = <0x0 0x10000000>;
+	};
+};
+
+&gem0 {
+	status = "okay";
+	phy-mode = "mii";
+	local-mac-address = [00 0A 35 00 00 AA];
+	phy-handle = <&ethernet_phy>;
+
+	ethernet_phy: ethernet-phy@0 {
+		reg = <0>;
+		device_type = "ethernet-phy";
+	};
+};
+
+&sdhci0 {
+	status = "okay";
+	xlnx,has-cd = <0x1>;
+        xlnx,has-power = <0x0>;
+        xlnx,has-wp = <0x0>;
+};
+
+&uart1 {
+	status = "okay";
+};
+
+&nand0 {
+	status = "disabled";
+};

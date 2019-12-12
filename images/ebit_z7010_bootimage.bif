@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]../ebit_z7010.sdk/ebit_z7010_fsbl/Debug/ebit_z7010_fsbl.elf
+	../ebit_z7010.sdk/ebit_z7010_top_wrapper_hw_platform_0/ebit_z7010_top_wrapper.bit
+	../images/u-boot.elf
+}

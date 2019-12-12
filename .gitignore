@@ -1,0 +1,11 @@
+# Cache and temp build folders
+ebit_z7010.hw/*
+ebit_z7010.cache/*
+ebit_z7010.sim/*
+ebit_z7010.ip_user_files/*
+ebit_z7010.runs/*
+ebit_z7010.sdk/ebit_z7010_fsbl/Debug/*
+ebit_z7010.sdk/.metadata/*
+
+# Log files
+*.log
