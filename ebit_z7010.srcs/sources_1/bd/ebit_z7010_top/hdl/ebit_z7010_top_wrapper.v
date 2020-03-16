@@ -1,8 +1,8 @@
 //Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2018.3.1 (lin64) Build 2489853 Tue Mar 26 04:18:30 MDT 2019
-//Date        : Mon Dec  9 21:20:44 2019
-//Host        : ubuntu-vm running 64-bit Ubuntu 18.04.3 LTS
+//Date        : Mon Mar 16 22:25:37 2020
+//Host        : ubuntu-vm running 64-bit Ubuntu 18.04.4 LTS
 //Command     : generate_target ebit_z7010_top_wrapper.bd
 //Design      : ebit_z7010_top_wrapper
 //Purpose     : IP block netlist
@@ -39,7 +39,39 @@ module ebit_z7010_top_wrapper
     fixed_io_mio,
     fixed_io_ps_clk,
     fixed_io_ps_porb,
-    fixed_io_ps_srstb);
+    fixed_io_ps_srstb,
+    sin_0,
+    sin_1,
+    sin_10,
+    sin_11,
+    sin_12,
+    sin_13,
+    sin_14,
+    sin_15,
+    sin_2,
+    sin_3,
+    sin_4,
+    sin_5,
+    sin_6,
+    sin_7,
+    sin_8,
+    sin_9,
+    sout_0,
+    sout_1,
+    sout_10,
+    sout_11,
+    sout_12,
+    sout_13,
+    sout_14,
+    sout_15,
+    sout_2,
+    sout_3,
+    sout_4,
+    sout_5,
+    sout_6,
+    sout_7,
+    sout_8,
+    sout_9);
   inout [14:0]ddr_addr;
   inout [2:0]ddr_ba;
   inout ddr_cas_n;
@@ -70,6 +102,38 @@ module ebit_z7010_top_wrapper
   inout fixed_io_ps_clk;
   inout fixed_io_ps_porb;
   inout fixed_io_ps_srstb;
+  input sin_0;
+  input sin_1;
+  input sin_10;
+  input sin_11;
+  input sin_12;
+  input sin_13;
+  input sin_14;
+  input sin_15;
+  input sin_2;
+  input sin_3;
+  input sin_4;
+  input sin_5;
+  input sin_6;
+  input sin_7;
+  input sin_8;
+  input sin_9;
+  output sout_0;
+  output sout_1;
+  output sout_10;
+  output sout_11;
+  output sout_12;
+  output sout_13;
+  output sout_14;
+  output sout_15;
+  output sout_2;
+  output sout_3;
+  output sout_4;
+  output sout_5;
+  output sout_6;
+  output sout_7;
+  output sout_8;
+  output sout_9;
 
   wire [14:0]ddr_addr;
   wire [2:0]ddr_ba;
@@ -111,6 +175,38 @@ module ebit_z7010_top_wrapper
   wire fixed_io_ps_clk;
   wire fixed_io_ps_porb;
   wire fixed_io_ps_srstb;
+  wire sin_0;
+  wire sin_1;
+  wire sin_10;
+  wire sin_11;
+  wire sin_12;
+  wire sin_13;
+  wire sin_14;
+  wire sin_15;
+  wire sin_2;
+  wire sin_3;
+  wire sin_4;
+  wire sin_5;
+  wire sin_6;
+  wire sin_7;
+  wire sin_8;
+  wire sin_9;
+  wire sout_0;
+  wire sout_1;
+  wire sout_10;
+  wire sout_11;
+  wire sout_12;
+  wire sout_13;
+  wire sout_14;
+  wire sout_15;
+  wire sout_2;
+  wire sout_3;
+  wire sout_4;
+  wire sout_5;
+  wire sout_6;
+  wire sout_7;
+  wire sout_8;
+  wire sout_9;
 
   ebit_z7010_top ebit_z7010_top_i
        (.ddr_addr(ddr_addr),
@@ -146,7 +242,39 @@ module ebit_z7010_top_wrapper
         .fixed_io_mio(fixed_io_mio),
         .fixed_io_ps_clk(fixed_io_ps_clk),
         .fixed_io_ps_porb(fixed_io_ps_porb),
-        .fixed_io_ps_srstb(fixed_io_ps_srstb));
+        .fixed_io_ps_srstb(fixed_io_ps_srstb),
+        .sin_0(sin_0),
+        .sin_1(sin_1),
+        .sin_10(sin_10),
+        .sin_11(sin_11),
+        .sin_12(sin_12),
+        .sin_13(sin_13),
+        .sin_14(sin_14),
+        .sin_15(sin_15),
+        .sin_2(sin_2),
+        .sin_3(sin_3),
+        .sin_4(sin_4),
+        .sin_5(sin_5),
+        .sin_6(sin_6),
+        .sin_7(sin_7),
+        .sin_8(sin_8),
+        .sin_9(sin_9),
+        .sout_0(sout_0),
+        .sout_1(sout_1),
+        .sout_10(sout_10),
+        .sout_11(sout_11),
+        .sout_12(sout_12),
+        .sout_13(sout_13),
+        .sout_14(sout_14),
+        .sout_15(sout_15),
+        .sout_2(sout_2),
+        .sout_3(sout_3),
+        .sout_4(sout_4),
+        .sout_5(sout_5),
+        .sout_6(sout_6),
+        .sout_7(sout_7),
+        .sout_8(sout_8),
+        .sout_9(sout_9));
   IOBUF emio_tri_iobuf_0
        (.I(emio_tri_o_0),
         .IO(emio_tri_io[0]),

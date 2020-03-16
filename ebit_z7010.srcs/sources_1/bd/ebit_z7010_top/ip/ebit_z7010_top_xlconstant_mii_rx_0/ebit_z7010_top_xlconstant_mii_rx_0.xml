@@ -2,7 +2,7 @@
 <spirit:component xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <spirit:vendor>xilinx.com</spirit:vendor>
   <spirit:library>customized_ip</spirit:library>
-  <spirit:name>ebit_z7010_top_xlconstant_0_1</spirit:name>
+  <spirit:name>ebit_z7010_top_xlconstant_mii_rx_0</spirit:name>
   <spirit:version>1.0</spirit:version>
   <spirit:model>
     <spirit:ports>
@@ -40,7 +40,7 @@
   <spirit:parameters>
     <spirit:parameter>
       <spirit:name>Component_Name</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name" spirit:order="2">ebit_z7010_top_xlconstant_0_1</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name" spirit:order="2">ebit_z7010_top_xlconstant_mii_rx_0</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>CONST_WIDTH</spirit:name>

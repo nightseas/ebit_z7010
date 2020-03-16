@@ -1,0 +1,133 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port sout_9 -pg 1 -y 2070 -defaultsOSRD
+preplace port sin_10 -pg 1 -y 1940 -defaultsOSRD
+preplace port sin_1 -pg 1 -y 930 -defaultsOSRD
+preplace port s_axi_aclk -pg 1 -y 1120 -defaultsOSRD
+preplace port sout_10 -pg 1 -y 2230 -defaultsOSRD
+preplace port sin_11 -pg 1 -y 1960 -defaultsOSRD
+preplace port sin_2 -pg 1 -y 950 -defaultsOSRD
+preplace port sout_11 -pg 1 -y 2390 -defaultsOSRD
+preplace port sin_12 -pg 1 -y 1980 -defaultsOSRD
+preplace port sin_3 -pg 1 -y 970 -defaultsOSRD
+preplace port S00_AXI -pg 1 -y 1100 -defaultsOSRD
+preplace port sout_12 -pg 1 -y 2550 -defaultsOSRD
+preplace port sin_13 -pg 1 -y 2000 -defaultsOSRD
+preplace port sin_4 -pg 1 -y 990 -defaultsOSRD
+preplace port sout_13 -pg 1 -y 2710 -defaultsOSRD
+preplace port sout_0 -pg 1 -y 340 -defaultsOSRD
+preplace port sin_14 -pg 1 -y 2020 -defaultsOSRD
+preplace port sin_5 -pg 1 -y 1010 -defaultsOSRD
+preplace port sout_14 -pg 1 -y 2870 -defaultsOSRD
+preplace port sout_1 -pg 1 -y 500 -defaultsOSRD
+preplace port sin_15 -pg 1 -y 2040 -defaultsOSRD
+preplace port sin_6 -pg 1 -y 1030 -defaultsOSRD
+preplace port sout_15 -pg 1 -y 3030 -defaultsOSRD
+preplace port sout_2 -pg 1 -y 660 -defaultsOSRD
+preplace port sin_7 -pg 1 -y 1880 -defaultsOSRD
+preplace port irq_com -pg 1 -y 140 -defaultsOSRD
+preplace port sout_3 -pg 1 -y 820 -defaultsOSRD
+preplace port sin_8 -pg 1 -y 1900 -defaultsOSRD
+preplace port sout_4 -pg 1 -y 1120 -defaultsOSRD
+preplace port sin_9 -pg 1 -y 1920 -defaultsOSRD
+preplace port sout_5 -pg 1 -y 1310 -defaultsOSRD
+preplace port s_axi_aresetn -pg 1 -y 1140 -defaultsOSRD
+preplace port sout_6 -pg 1 -y 1470 -defaultsOSRD
+preplace port sout_7 -pg 1 -y 1700 -defaultsOSRD
+preplace port sout_8 -pg 1 -y 1910 -defaultsOSRD
+preplace port sin_0 -pg 1 -y 910 -defaultsOSRD
+preplace inst com_0 -pg 1 -lvl 2 -y 330 -defaultsOSRD
+preplace inst com_1 -pg 1 -lvl 2 -y 490 -defaultsOSRD
+preplace inst com_2 -pg 1 -lvl 2 -y 650 -defaultsOSRD
+preplace inst axi_intc_0 -pg 1 -lvl 2 -y 130 -defaultsOSRD
+preplace inst com_3 -pg 1 -lvl 2 -y 810 -defaultsOSRD
+preplace inst com_10 -pg 1 -lvl 2 -y 2220 -defaultsOSRD
+preplace inst com_4 -pg 1 -lvl 2 -y 1110 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 1 -y 660 -defaultsOSRD
+preplace inst com_11 -pg 1 -lvl 2 -y 2380 -defaultsOSRD
+preplace inst com_5 -pg 1 -lvl 2 -y 1300 -defaultsOSRD
+preplace inst com_12 -pg 1 -lvl 2 -y 2540 -defaultsOSRD
+preplace inst com_6 -pg 1 -lvl 2 -y 1460 -defaultsOSRD
+preplace inst com_13 -pg 1 -lvl 2 -y 2700 -defaultsOSRD
+preplace inst com_7 -pg 1 -lvl 2 -y 1690 -defaultsOSRD
+preplace inst com_14 -pg 1 -lvl 2 -y 2860 -defaultsOSRD
+preplace inst com_8 -pg 1 -lvl 2 -y 1900 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 1 -y 1480 -defaultsOSRD
+preplace inst com_15 -pg 1 -lvl 2 -y 3020 -defaultsOSRD
+preplace inst com_9 -pg 1 -lvl 2 -y 2060 -defaultsOSRD
+preplace netloc ps7_0_axi_periph_M15_AXI 1 1 1 410
+preplace netloc ps7_0_axi_periph_M08_AXI 1 1 1 540
+preplace netloc ps7_0_axi_periph_M09_AXI 1 1 1 500
+preplace netloc sin_0_10 1 0 3 50J 1940 570J 1580 920
+preplace netloc sin_0_11 1 0 3 20J 1950 580J 1780 890
+preplace netloc sin_0_12 1 0 3 NJ 1960 590J 1790 910
+preplace netloc sin_0_13 1 0 3 NJ 1980 620J 1800 930
+preplace netloc sin_0_14 1 0 3 NJ 2000 630J 1810 940
+preplace netloc ps7_0_axi_periph_M02_AXI 1 1 1 450
+preplace netloc sin_0_15 1 0 3 NJ 2020 610J 1600 950
+preplace netloc ps7_0_axi_periph_M04_AXI 1 1 1 480
+preplace netloc com_8_ip2intc_irpt 1 0 3 40 900 NJ 900 990
+preplace netloc sin_0_16 1 0 3 NJ 2040 600J 1590 980
+preplace netloc xlconcat_0_dout 1 1 1 410
+preplace netloc com_6_ip2intc_irpt 1 0 3 110 240 NJ 240 1030
+preplace netloc ps7_0_axi_periph_M03_AXI 1 1 1 470
+preplace netloc ps7_0_axi_periph_M16_AXI 1 1 1 440
+preplace netloc sin_0_1 1 0 3 NJ 910 NJ 910 920
+preplace netloc com_12_ip2intc_irpt 1 0 3 110 890 610J 1550 970
+preplace netloc sin_0_2 1 0 3 20J 940 NJ 940 910
+preplace netloc com_7_ip2intc_irpt 1 0 3 60 870 630J 1200 930
+preplace netloc com_11_ip2intc_irpt 1 0 3 100 880 620J 1210 960
+preplace netloc sin_0_3 1 0 3 NJ 950 NJ 950 900
+preplace netloc com_2_ip2intc_irpt 1 0 3 50 30 NJ 30 940
+preplace netloc ps7_0_axi_periph_M12_AXI 1 1 1 470
+preplace netloc sin_0_4 1 0 3 20J 960 NJ 960 890
+preplace netloc axi_uart16550_0_sout 1 2 1 NJ
+preplace netloc s_axi_aresetn_1 1 0 2 80 1030 520
+preplace netloc sin_0_5 1 0 3 30J 1000 NJ 1000 890
+preplace netloc com_14_ip2intc_irpt 1 0 3 70 980 NJ 980 1040
+preplace netloc sin_0_6 1 0 3 NJ 1010 NJ 1010 900
+preplace netloc ps7_0_axi_periph_M00_AXI 1 1 1 420
+preplace netloc sin_0_7 1 0 3 40J 1020 NJ 1020 910
+preplace netloc axi_uart16550_0_sout1 1 2 1 NJ
+preplace netloc com_15_ip2intc_irpt 1 0 3 80 990 NJ 990 1060
+preplace netloc sin_0_8 1 0 3 100J 1920 530J 1560 890
+preplace netloc com_4_ip2intc_irpt 1 0 3 90 220 NJ 220 970
+preplace netloc axi_uart16550_0_sout2 1 2 1 NJ
+preplace netloc s_axi_aclk_1 1 0 2 110 1040 510
+preplace netloc axi_uart16550_0_sout10 1 2 1 NJ
+preplace netloc sin_0_9 1 0 3 80J 1930 550J 1570 900
+preplace netloc ps7_0_axi_periph_M01_AXI 1 1 1 430
+preplace netloc axi_uart16550_0_sout3 1 2 1 NJ
+preplace netloc axi_uart16550_0_sout11 1 2 1 NJ
+preplace netloc com_13_ip2intc_irpt 1 0 3 90 930 NJ 930 1050
+preplace netloc com_5_ip2intc_irpt 1 0 3 100 230 NJ 230 1000
+preplace netloc axi_uart16550_0_sout4 1 2 1 NJ
+preplace netloc axi_uart16550_0_sout12 1 2 1 NJ
+preplace netloc ps7_0_axi_periph_M10_AXI 1 1 1 490
+preplace netloc axi_uart16550_0_sout5 1 2 1 NJ
+preplace netloc axi_uart16550_0_sout13 1 2 1 NJ
+preplace netloc axi_uart16550_0_sout6 1 2 1 NJ
+preplace netloc axi_uart16550_0_sout14 1 2 1 NJ
+preplace netloc ps7_0_axi_periph_M07_AXI 1 1 1 560
+preplace netloc axi_uart16550_0_sout7 1 2 1 NJ
+preplace netloc axi_uart16550_0_sout15 1 2 1 NJ
+preplace netloc axi_uart16550_0_sout8 1 2 1 NJ
+preplace netloc com_0_ip2intc_irpt 1 0 3 30 10 NJ 10 960
+preplace netloc ps7_0_axi_periph_M14_AXI 1 1 1 450
+preplace netloc ps7_0_axi_periph_M13_AXI 1 1 1 460
+preplace netloc axi_uart16550_0_sout9 1 2 1 NJ
+preplace netloc com_1_ip2intc_irpt 1 0 3 40 20 NJ 20 950
+preplace netloc com_3_ip2intc_irpt 1 0 3 80 40 NJ 40 930
+preplace netloc com_10_ip2intc_irpt 1 0 3 30 970 NJ 970 1010
+preplace netloc ps7_0_axi_periph_M06_AXI 1 1 1 470
+preplace netloc com_9_ip2intc_irpt 1 0 3 50 920 NJ 920 1020
+preplace netloc ps7_0_axi_periph_M11_AXI 1 1 1 480
+preplace netloc ps7_0_axi_periph_M05_AXI 1 1 1 490
+preplace netloc Conn1 1 0 1 NJ
+preplace netloc axi_intc_0_irq 1 2 1 NJ
+levelinfo -pg 1 0 260 760 1080 -top 0 -bot 3110
+"
+}
+

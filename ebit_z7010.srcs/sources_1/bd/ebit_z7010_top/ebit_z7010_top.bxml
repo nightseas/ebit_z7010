@@ -2,11 +2,171 @@
 <Root MajorVersion="0" MinorVersion="36">
   <CompositeFile CompositeFileTopName="ebit_z7010_top" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="STALE" Timestamp="1576119261"/>
-    <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1576119261"/>
-    <Generation Name="SIMULATION" State="STALE" Timestamp="1576119261"/>
-    <Generation Name="HW_HANDOFF" State="STALE" Timestamp="1576119261"/>
+    <Generation Name="SYNTHESIS" State="RESET" Timestamp="1584371379"/>
+    <Generation Name="IMPLEMENTATION" State="RESET" Timestamp="1584371379"/>
+    <Generation Name="SIMULATION" State="RESET" Timestamp="1584371379"/>
+    <Generation Name="HW_HANDOFF" State="RESET" Timestamp="1584371379"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip/ebit_z7010_top_axi_intc_0_0/ebit_z7010_top_axi_intc_0_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/axi_intc_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_com_0_0/ebit_z7010_top_com_0_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/com_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_com_1_0/ebit_z7010_top_com_1_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/com_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_com_2_0/ebit_z7010_top_com_2_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/com_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_com_3_0/ebit_z7010_top_com_3_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/com_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_com_4_0/ebit_z7010_top_com_4_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/com_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_com_5_0/ebit_z7010_top_com_5_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/com_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_com_6_0/ebit_z7010_top_com_6_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/com_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_com_7_0/ebit_z7010_top_com_7_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/com_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_com_8_0/ebit_z7010_top_com_8_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/com_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_com_9_0/ebit_z7010_top_com_9_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/com_9"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_com_10_0/ebit_z7010_top_com_10_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/com_10"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_com_11_0/ebit_z7010_top_com_11_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/com_11"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_com_12_0/ebit_z7010_top_com_12_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/com_12"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_com_13_0/ebit_z7010_top_com_13_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/com_13"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_com_14_0/ebit_z7010_top_com_14_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/com_14"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_com_15_0/ebit_z7010_top_com_15_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/com_15"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_xbar_0/ebit_z7010_top_xbar_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/ps7_0_axi_periph/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_ps7_0_axi_periph_0/ebit_z7010_top_ps7_0_axi_periph_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/ps7_0_axi_periph"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_xlconcat_0_0/ebit_z7010_top_xlconcat_0_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/xlconcat_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
       <File Name="ip/ebit_z7010_top_processing_system7_0_0/ebit_z7010_top_processing_system7_0_0.xci" Type="IP">
         <Instance HierarchyPath="processing_system7_0"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
@@ -15,7 +175,15 @@
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/ebit_z7010_top_xlconcat_0_2/ebit_z7010_top_xlconcat_0_2.xci" Type="IP">
+      <File Name="ip/ebit_z7010_top_rst_ps7_0_50M_0/ebit_z7010_top_rst_ps7_0_50M_0.xci" Type="IP">
+        <Instance HierarchyPath="rst_ps7_0_100M"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_xlconcat_mii_rx_0/ebit_z7010_top_xlconcat_mii_rx_0.xci" Type="IP">
         <Instance HierarchyPath="xlconcat_mii_rx"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
@@ -23,7 +191,15 @@
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/ebit_z7010_top_xlslice_0_0/ebit_z7010_top_xlslice_0_0.xci" Type="IP">
+      <File Name="ip/ebit_z7010_top_xlconstant_mii_rx_0/ebit_z7010_top_xlconstant_mii_rx_0.xci" Type="IP">
+        <Instance HierarchyPath="xlconstant_mii_rx"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_xlslice_mii_tx_0/ebit_z7010_top_xlslice_mii_tx_0.xci" Type="IP">
         <Instance HierarchyPath="xlslice_mii_tx"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
@@ -31,8 +207,32 @@
         <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
-      <File Name="ip/ebit_z7010_top_xlconstant_0_1/ebit_z7010_top_xlconstant_0_1.xci" Type="IP">
-        <Instance HierarchyPath="xlconstant_mii_rx"/>
+      <File Name="ip/ebit_z7010_top_tier2_xbar_0_0/ebit_z7010_top_tier2_xbar_0_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/ps7_0_axi_periph/tier2_xbar_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_tier2_xbar_1_0/ebit_z7010_top_tier2_xbar_1_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/ps7_0_axi_periph/tier2_xbar_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_tier2_xbar_2_0/ebit_z7010_top_tier2_xbar_2_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/ps7_0_axi_periph/tier2_xbar_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ebit_z7010_top_auto_pc_0/ebit_z7010_top_auto_pc_0.xci" Type="IP">
+        <Instance HierarchyPath="com_x16/ps7_0_axi_periph/s00_couplers/auto_pc"/>
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
         <Library Name="xil_defaultlib"/>
         <UsedIn Val="SYNTHESIS"/>
