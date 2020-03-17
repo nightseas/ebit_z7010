@@ -1,6 +1,6 @@
-# Zynq7010 Base Reference Design
+# Branch: Zynq7010 Based 16-Port Terminal Server
 
-This is a base design (PS only) for EBIT EBAZ4205 Zynq7010 board as a start point to make fun with.
+This branch is a project of 16-port UART terminal server based on EBIT EBAZ4205 Zynq7010 board.
 
 Implemented features:
 
@@ -9,6 +9,8 @@ Implemented features:
  - UART1 interface for debug and loggin
  - 100M Ethernet with MII interface via EMIO
  - GPIO for LED control via EMIO
+ - PL: 16 x UART 16550 (only RXD & TXD)
+ - PL: AXI interrupt controller for UART interrupts
 
 What're included:
 
@@ -23,6 +25,10 @@ EDA tools:
  - Xilinx Vivado 2018.3
  - Xilinx SDK 2018.3
  - Free Webpack License
+
+### Serial Port Pinouts
+
+![Pinouts](documents/pics/term-server-x16-serial-pinouts.png?raw=true)
 
 ### How-tos
 
