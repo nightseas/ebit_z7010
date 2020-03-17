@@ -27,7 +27,7 @@ preplace port sin_6 -pg 1 -y 1030 -defaultsOSRD
 preplace port sout_15 -pg 1 -y 3030 -defaultsOSRD
 preplace port sout_2 -pg 1 -y 660 -defaultsOSRD
 preplace port sin_7 -pg 1 -y 1880 -defaultsOSRD
-preplace port irq_com -pg 1 -y 140 -defaultsOSRD
+preplace port irq_com -pg 1 -y 130 -defaultsOSRD
 preplace port sout_3 -pg 1 -y 820 -defaultsOSRD
 preplace port sin_8 -pg 1 -y 1900 -defaultsOSRD
 preplace port sout_4 -pg 1 -y 1120 -defaultsOSRD
@@ -130,4 +130,4 @@ preplace netloc axi_intc_0_irq 1 2 1 NJ
 levelinfo -pg 1 0 260 760 1080 -top 0 -bot 3110
 "
 }
-
+0

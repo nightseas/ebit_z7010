@@ -1,7 +1,7 @@
 //Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2018.3.1 (lin64) Build 2489853 Tue Mar 26 04:18:30 MDT 2019
-//Date        : Mon Mar 16 22:25:37 2020
+//Date        : Tue Mar 17 22:41:30 2020
 //Host        : ubuntu-vm running 64-bit Ubuntu 18.04.4 LTS
 //Command     : generate_target ebit_z7010_top_wrapper.bd
 //Design      : ebit_z7010_top_wrapper

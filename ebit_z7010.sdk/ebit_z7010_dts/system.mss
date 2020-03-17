@@ -191,4 +191,338 @@ BEGIN DRIVER
  PARAMETER HW_INSTANCE = ps7_xadc_0
 END
 
+BEGIN DRIVER
+ PARAMETER DRIVER_NAME = intc
+ PARAMETER HW_INSTANCE = com_x16_axi_intc_0
+ PARAMETER clock-names = s_axi_aclk
+ PARAMETER clocks = clkc 15
+ PARAMETER compatible = xlnx,axi-intc-4.1 xlnx,xps-intc-1.00.a
+ PARAMETER interrupt-names = irq
+ PARAMETER interrupt-parent = intc
+ PARAMETER interrupts = 0 29 4
+ PARAMETER reg = 0x41800000 0x10000
+ PARAMETER xlnx,kind-of-intr = 0
+ PARAMETER xlnx,num-intr-inputs = 16
+END
+
+BEGIN DRIVER
+ PARAMETER DRIVER_NAME = uartns
+ PARAMETER HW_INSTANCE = com_x16_com_0
+ PARAMETER clock-names = s_axi_aclk
+ PARAMETER clocks = clkc 15
+ PARAMETER interrupt-names = ip2intc_irpt
+ PARAMETER interrupt-parent = com_x16_axi_intc_0
+ PARAMETER interrupts = 0 2
+ PARAMETER port-number = 1
+ PARAMETER reg = 0x43c00000 0x10000
+ PARAMETER xlnx,external-xin-clk-hz = 25000000
+ PARAMETER xlnx,external-xin-clk-hz-d = 25
+ PARAMETER xlnx,has-external-rclk = 0
+ PARAMETER xlnx,has-external-xin = 0
+ PARAMETER xlnx,is-a-16550 = 1
+ PARAMETER xlnx,s-axi-aclk-freq-hz-d = 100.0
+ PARAMETER xlnx,use-modem-ports = 1
+ PARAMETER xlnx,use-user-ports = 1
+END
+
+BEGIN DRIVER
+ PARAMETER DRIVER_NAME = uartns
+ PARAMETER HW_INSTANCE = com_x16_com_1
+ PARAMETER clock-names = s_axi_aclk
+ PARAMETER clocks = clkc 15
+ PARAMETER interrupt-names = ip2intc_irpt
+ PARAMETER interrupt-parent = com_x16_axi_intc_0
+ PARAMETER interrupts = 1 2
+ PARAMETER port-number = 2
+ PARAMETER reg = 0x43c10000 0x10000
+ PARAMETER xlnx,external-xin-clk-hz = 25000000
+ PARAMETER xlnx,external-xin-clk-hz-d = 25
+ PARAMETER xlnx,has-external-rclk = 0
+ PARAMETER xlnx,has-external-xin = 0
+ PARAMETER xlnx,is-a-16550 = 1
+ PARAMETER xlnx,s-axi-aclk-freq-hz-d = 100.0
+ PARAMETER xlnx,use-modem-ports = 1
+ PARAMETER xlnx,use-user-ports = 1
+END
+
+BEGIN DRIVER
+ PARAMETER DRIVER_NAME = uartns
+ PARAMETER HW_INSTANCE = com_x16_com_10
+ PARAMETER clock-names = s_axi_aclk
+ PARAMETER clocks = clkc 15
+ PARAMETER interrupt-names = ip2intc_irpt
+ PARAMETER interrupt-parent = com_x16_axi_intc_0
+ PARAMETER interrupts = 10 2
+ PARAMETER port-number = 3
+ PARAMETER reg = 0x43ca0000 0x10000
+ PARAMETER xlnx,external-xin-clk-hz = 25000000
+ PARAMETER xlnx,external-xin-clk-hz-d = 25
+ PARAMETER xlnx,has-external-rclk = 0
+ PARAMETER xlnx,has-external-xin = 0
+ PARAMETER xlnx,is-a-16550 = 1
+ PARAMETER xlnx,s-axi-aclk-freq-hz-d = 100.0
+ PARAMETER xlnx,use-modem-ports = 1
+ PARAMETER xlnx,use-user-ports = 1
+END
+
+BEGIN DRIVER
+ PARAMETER DRIVER_NAME = uartns
+ PARAMETER HW_INSTANCE = com_x16_com_11
+ PARAMETER clock-names = s_axi_aclk
+ PARAMETER clocks = clkc 15
+ PARAMETER interrupt-names = ip2intc_irpt
+ PARAMETER interrupt-parent = com_x16_axi_intc_0
+ PARAMETER interrupts = 11 2
+ PARAMETER port-number = 4
+ PARAMETER reg = 0x43cb0000 0x10000
+ PARAMETER xlnx,external-xin-clk-hz = 25000000
+ PARAMETER xlnx,external-xin-clk-hz-d = 25
+ PARAMETER xlnx,has-external-rclk = 0
+ PARAMETER xlnx,has-external-xin = 0
+ PARAMETER xlnx,is-a-16550 = 1
+ PARAMETER xlnx,s-axi-aclk-freq-hz-d = 100.0
+ PARAMETER xlnx,use-modem-ports = 1
+ PARAMETER xlnx,use-user-ports = 1
+END
+
+BEGIN DRIVER
+ PARAMETER DRIVER_NAME = uartns
+ PARAMETER HW_INSTANCE = com_x16_com_12
+ PARAMETER clock-names = s_axi_aclk
+ PARAMETER clocks = clkc 15
+ PARAMETER interrupt-names = ip2intc_irpt
+ PARAMETER interrupt-parent = com_x16_axi_intc_0
+ PARAMETER interrupts = 12 2
+ PARAMETER port-number = 5
+ PARAMETER reg = 0x43cc0000 0x10000
+ PARAMETER xlnx,external-xin-clk-hz = 25000000
+ PARAMETER xlnx,external-xin-clk-hz-d = 25
+ PARAMETER xlnx,has-external-rclk = 0
+ PARAMETER xlnx,has-external-xin = 0
+ PARAMETER xlnx,is-a-16550 = 1
+ PARAMETER xlnx,s-axi-aclk-freq-hz-d = 100.0
+ PARAMETER xlnx,use-modem-ports = 1
+ PARAMETER xlnx,use-user-ports = 1
+END
+
+BEGIN DRIVER
+ PARAMETER DRIVER_NAME = uartns
+ PARAMETER HW_INSTANCE = com_x16_com_13
+ PARAMETER clock-names = s_axi_aclk
+ PARAMETER clocks = clkc 15
+ PARAMETER interrupt-names = ip2intc_irpt
+ PARAMETER interrupt-parent = com_x16_axi_intc_0
+ PARAMETER interrupts = 13 2
+ PARAMETER port-number = 6
+ PARAMETER reg = 0x43cd0000 0x10000
+ PARAMETER xlnx,external-xin-clk-hz = 25000000
+ PARAMETER xlnx,external-xin-clk-hz-d = 25
+ PARAMETER xlnx,has-external-rclk = 0
+ PARAMETER xlnx,has-external-xin = 0
+ PARAMETER xlnx,is-a-16550 = 1
+ PARAMETER xlnx,s-axi-aclk-freq-hz-d = 100.0
+ PARAMETER xlnx,use-modem-ports = 1
+ PARAMETER xlnx,use-user-ports = 1
+END
+
+BEGIN DRIVER
+ PARAMETER DRIVER_NAME = uartns
+ PARAMETER HW_INSTANCE = com_x16_com_14
+ PARAMETER clock-names = s_axi_aclk
+ PARAMETER clocks = clkc 15
+ PARAMETER interrupt-names = ip2intc_irpt
+ PARAMETER interrupt-parent = com_x16_axi_intc_0
+ PARAMETER interrupts = 14 2
+ PARAMETER port-number = 7
+ PARAMETER reg = 0x43ce0000 0x10000
+ PARAMETER xlnx,external-xin-clk-hz = 25000000
+ PARAMETER xlnx,external-xin-clk-hz-d = 25
+ PARAMETER xlnx,has-external-rclk = 0
+ PARAMETER xlnx,has-external-xin = 0
+ PARAMETER xlnx,is-a-16550 = 1
+ PARAMETER xlnx,s-axi-aclk-freq-hz-d = 100.0
+ PARAMETER xlnx,use-modem-ports = 1
+ PARAMETER xlnx,use-user-ports = 1
+END
+
+BEGIN DRIVER
+ PARAMETER DRIVER_NAME = uartns
+ PARAMETER HW_INSTANCE = com_x16_com_15
+ PARAMETER clock-names = s_axi_aclk
+ PARAMETER clocks = clkc 15
+ PARAMETER interrupt-names = ip2intc_irpt
+ PARAMETER interrupt-parent = com_x16_axi_intc_0
+ PARAMETER interrupts = 15 2
+ PARAMETER port-number = 8
+ PARAMETER reg = 0x43cf0000 0x10000
+ PARAMETER xlnx,external-xin-clk-hz = 25000000
+ PARAMETER xlnx,external-xin-clk-hz-d = 25
+ PARAMETER xlnx,has-external-rclk = 0
+ PARAMETER xlnx,has-external-xin = 0
+ PARAMETER xlnx,is-a-16550 = 1
+ PARAMETER xlnx,s-axi-aclk-freq-hz-d = 100.0
+ PARAMETER xlnx,use-modem-ports = 1
+ PARAMETER xlnx,use-user-ports = 1
+END
+
+BEGIN DRIVER
+ PARAMETER DRIVER_NAME = uartns
+ PARAMETER HW_INSTANCE = com_x16_com_2
+ PARAMETER clock-names = s_axi_aclk
+ PARAMETER clocks = clkc 15
+ PARAMETER interrupt-names = ip2intc_irpt
+ PARAMETER interrupt-parent = com_x16_axi_intc_0
+ PARAMETER interrupts = 2 2
+ PARAMETER port-number = 9
+ PARAMETER reg = 0x43c20000 0x10000
+ PARAMETER xlnx,external-xin-clk-hz = 25000000
+ PARAMETER xlnx,external-xin-clk-hz-d = 25
+ PARAMETER xlnx,has-external-rclk = 0
+ PARAMETER xlnx,has-external-xin = 0
+ PARAMETER xlnx,is-a-16550 = 1
+ PARAMETER xlnx,s-axi-aclk-freq-hz-d = 100.0
+ PARAMETER xlnx,use-modem-ports = 1
+ PARAMETER xlnx,use-user-ports = 1
+END
+
+BEGIN DRIVER
+ PARAMETER DRIVER_NAME = uartns
+ PARAMETER HW_INSTANCE = com_x16_com_3
+ PARAMETER clock-names = s_axi_aclk
+ PARAMETER clocks = clkc 15
+ PARAMETER interrupt-names = ip2intc_irpt
+ PARAMETER interrupt-parent = com_x16_axi_intc_0
+ PARAMETER interrupts = 3 2
+ PARAMETER port-number = 10
+ PARAMETER reg = 0x43c30000 0x10000
+ PARAMETER xlnx,external-xin-clk-hz = 25000000
+ PARAMETER xlnx,external-xin-clk-hz-d = 25
+ PARAMETER xlnx,has-external-rclk = 0
+ PARAMETER xlnx,has-external-xin = 0
+ PARAMETER xlnx,is-a-16550 = 1
+ PARAMETER xlnx,s-axi-aclk-freq-hz-d = 100.0
+ PARAMETER xlnx,use-modem-ports = 1
+ PARAMETER xlnx,use-user-ports = 1
+END
+
+BEGIN DRIVER
+ PARAMETER DRIVER_NAME = uartns
+ PARAMETER HW_INSTANCE = com_x16_com_4
+ PARAMETER clock-names = s_axi_aclk
+ PARAMETER clocks = clkc 15
+ PARAMETER interrupt-names = ip2intc_irpt
+ PARAMETER interrupt-parent = com_x16_axi_intc_0
+ PARAMETER interrupts = 4 2
+ PARAMETER port-number = 11
+ PARAMETER reg = 0x43c40000 0x10000
+ PARAMETER xlnx,external-xin-clk-hz = 25000000
+ PARAMETER xlnx,external-xin-clk-hz-d = 25
+ PARAMETER xlnx,has-external-rclk = 0
+ PARAMETER xlnx,has-external-xin = 0
+ PARAMETER xlnx,is-a-16550 = 1
+ PARAMETER xlnx,s-axi-aclk-freq-hz-d = 100.0
+ PARAMETER xlnx,use-modem-ports = 1
+ PARAMETER xlnx,use-user-ports = 1
+END
+
+BEGIN DRIVER
+ PARAMETER DRIVER_NAME = uartns
+ PARAMETER HW_INSTANCE = com_x16_com_5
+ PARAMETER clock-names = s_axi_aclk
+ PARAMETER clocks = clkc 15
+ PARAMETER interrupt-names = ip2intc_irpt
+ PARAMETER interrupt-parent = com_x16_axi_intc_0
+ PARAMETER interrupts = 5 2
+ PARAMETER port-number = 12
+ PARAMETER reg = 0x43c50000 0x10000
+ PARAMETER xlnx,external-xin-clk-hz = 25000000
+ PARAMETER xlnx,external-xin-clk-hz-d = 25
+ PARAMETER xlnx,has-external-rclk = 0
+ PARAMETER xlnx,has-external-xin = 0
+ PARAMETER xlnx,is-a-16550 = 1
+ PARAMETER xlnx,s-axi-aclk-freq-hz-d = 100.0
+ PARAMETER xlnx,use-modem-ports = 1
+ PARAMETER xlnx,use-user-ports = 1
+END
+
+BEGIN DRIVER
+ PARAMETER DRIVER_NAME = uartns
+ PARAMETER HW_INSTANCE = com_x16_com_6
+ PARAMETER clock-names = s_axi_aclk
+ PARAMETER clocks = clkc 15
+ PARAMETER interrupt-names = ip2intc_irpt
+ PARAMETER interrupt-parent = com_x16_axi_intc_0
+ PARAMETER interrupts = 6 2
+ PARAMETER port-number = 13
+ PARAMETER reg = 0x43c60000 0x10000
+ PARAMETER xlnx,external-xin-clk-hz = 25000000
+ PARAMETER xlnx,external-xin-clk-hz-d = 25
+ PARAMETER xlnx,has-external-rclk = 0
+ PARAMETER xlnx,has-external-xin = 0
+ PARAMETER xlnx,is-a-16550 = 1
+ PARAMETER xlnx,s-axi-aclk-freq-hz-d = 100.0
+ PARAMETER xlnx,use-modem-ports = 1
+ PARAMETER xlnx,use-user-ports = 1
+END
+
+BEGIN DRIVER
+ PARAMETER DRIVER_NAME = uartns
+ PARAMETER HW_INSTANCE = com_x16_com_7
+ PARAMETER clock-names = s_axi_aclk
+ PARAMETER clocks = clkc 15
+ PARAMETER interrupt-names = ip2intc_irpt
+ PARAMETER interrupt-parent = com_x16_axi_intc_0
+ PARAMETER interrupts = 7 2
+ PARAMETER port-number = 14
+ PARAMETER reg = 0x43c70000 0x10000
+ PARAMETER xlnx,external-xin-clk-hz = 25000000
+ PARAMETER xlnx,external-xin-clk-hz-d = 25
+ PARAMETER xlnx,has-external-rclk = 0
+ PARAMETER xlnx,has-external-xin = 0
+ PARAMETER xlnx,is-a-16550 = 1
+ PARAMETER xlnx,s-axi-aclk-freq-hz-d = 100.0
+ PARAMETER xlnx,use-modem-ports = 1
+ PARAMETER xlnx,use-user-ports = 1
+END
+
+BEGIN DRIVER
+ PARAMETER DRIVER_NAME = uartns
+ PARAMETER HW_INSTANCE = com_x16_com_8
+ PARAMETER clock-names = s_axi_aclk
+ PARAMETER clocks = clkc 15
+ PARAMETER interrupt-names = ip2intc_irpt
+ PARAMETER interrupt-parent = com_x16_axi_intc_0
+ PARAMETER interrupts = 8 2
+ PARAMETER port-number = 15
+ PARAMETER reg = 0x43c80000 0x10000
+ PARAMETER xlnx,external-xin-clk-hz = 25000000
+ PARAMETER xlnx,external-xin-clk-hz-d = 25
+ PARAMETER xlnx,has-external-rclk = 0
+ PARAMETER xlnx,has-external-xin = 0
+ PARAMETER xlnx,is-a-16550 = 1
+ PARAMETER xlnx,s-axi-aclk-freq-hz-d = 100.0
+ PARAMETER xlnx,use-modem-ports = 1
+ PARAMETER xlnx,use-user-ports = 1
+END
+
+BEGIN DRIVER
+ PARAMETER DRIVER_NAME = uartns
+ PARAMETER HW_INSTANCE = com_x16_com_9
+ PARAMETER clock-names = s_axi_aclk
+ PARAMETER clocks = clkc 15
+ PARAMETER interrupt-names = ip2intc_irpt
+ PARAMETER interrupt-parent = com_x16_axi_intc_0
+ PARAMETER interrupts = 9 2
+ PARAMETER port-number = 16
+ PARAMETER reg = 0x43c90000 0x10000
+ PARAMETER xlnx,external-xin-clk-hz = 25000000
+ PARAMETER xlnx,external-xin-clk-hz-d = 25
+ PARAMETER xlnx,has-external-rclk = 0
+ PARAMETER xlnx,has-external-xin = 0
+ PARAMETER xlnx,is-a-16550 = 1
+ PARAMETER xlnx,s-axi-aclk-freq-hz-d = 100.0
+ PARAMETER xlnx,use-modem-ports = 1
+ PARAMETER xlnx,use-user-ports = 1
+END
+
 

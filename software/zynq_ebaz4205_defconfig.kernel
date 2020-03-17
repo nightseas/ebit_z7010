@@ -4,7 +4,8 @@
 #                                                    #
 #   File   : zynq_ebaz4205_defconfig.kernel          #
 #   Author : Xiaohai Li (haixiaolee@gmail.com)       #
-#   Rev    : v0.1 2019-12-09                         #
+#   Rev    : v0.2 2020-03-17                         #
+#   Desc   : Project terminal server x16             #
 #                                                    #
 ######################################################
 CONFIG_ARM=y
@@ -1737,7 +1738,23 @@ CONFIG_DEVMEM=y
 # Serial drivers
 #
 CONFIG_SERIAL_EARLYCON=y
-# CONFIG_SERIAL_8250 is not set
+CONFIG_SERIAL_8250=y
+# CONFIG_SERIAL_8250_DEPRECATED_OPTIONS is not set
+# CONFIG_SERIAL_8250_FINTEK is not set
+CONFIG_SERIAL_8250_CONSOLE=y
+CONFIG_SERIAL_8250_DMA=y
+CONFIG_SERIAL_8250_PCI=y
+CONFIG_SERIAL_8250_EXAR=y
+CONFIG_SERIAL_8250_NR_UARTS=40
+CONFIG_SERIAL_8250_RUNTIME_UARTS=40
+# CONFIG_SERIAL_8250_EXTENDED is not set
+# CONFIG_SERIAL_8250_ASPEED_VUART is not set
+CONFIG_SERIAL_8250_FSL=y
+# CONFIG_SERIAL_8250_DW is not set
+# CONFIG_SERIAL_8250_EM is not set
+# CONFIG_SERIAL_8250_RT288X is not set
+# CONFIG_SERIAL_8250_MOXA is not set
+CONFIG_SERIAL_OF_PLATFORM=y
 
 #
 # Non-8250 serial port support
@@ -1747,7 +1764,8 @@ CONFIG_SERIAL_EARLYCON=y
 # CONFIG_SERIAL_EARLYCON_ARM_SEMIHOST is not set
 # CONFIG_SERIAL_MAX3100 is not set
 # CONFIG_SERIAL_MAX310X is not set
-# CONFIG_SERIAL_UARTLITE is not set
+CONFIG_SERIAL_UARTLITE=y
+CONFIG_SERIAL_UARTLITE_CONSOLE=y
 CONFIG_SERIAL_CORE=y
 CONFIG_SERIAL_CORE_CONSOLE=y
 # CONFIG_SERIAL_JSM is not set
@@ -1944,6 +1962,7 @@ CONFIG_GPIO_GENERIC=y
 # CONFIG_GPIO_74XX_MMIO is not set
 # CONFIG_GPIO_ALTERA is not set
 # CONFIG_GPIO_DWAPB is not set
+# CONFIG_GPIO_EXAR is not set
 # CONFIG_GPIO_FTGPIO010 is not set
 CONFIG_GPIO_GENERIC_PLATFORM=y
 # CONFIG_GPIO_GRGPIO is not set
@@ -4054,7 +4073,7 @@ CONFIG_XILINX_XADC=y
 CONFIG_IRQCHIP=y
 CONFIG_ARM_GIC=y
 CONFIG_ARM_GIC_MAX_NR=1
-# CONFIG_XILINX_INTC is not set
+CONFIG_XILINX_INTC=y
 # CONFIG_IPACK_BUS is not set
 CONFIG_ARCH_HAS_RESET_CONTROLLER=y
 CONFIG_RESET_CONTROLLER=y
